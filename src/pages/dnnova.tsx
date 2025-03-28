@@ -176,7 +176,7 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-5">
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=78b606b9-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -186,7 +186,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=996d6f79-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -196,7 +196,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=a376d0b6-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -206,7 +206,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=ac5c6e50-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -216,7 +216,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=b7de7a62-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -226,7 +226,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=c293c9d8-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -236,7 +236,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=cbfcea09-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
@@ -246,7 +246,7 @@ export default function Home() {
 
               <a
                 target="_blank"
-                href="https://pagamento.institutodacaridade.online/checkout?product=d45d9485-09c5-11f0-8fa3-46da4690ad53"
+                href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
                 rel="noreferrer"
