@@ -49,7 +49,8 @@ export default function Home() {
               }}
             >
               <span className="w-max flex items-center gap-1 py-[5px] px-4 text-xs text-primary font-semibold uppercase bg-white rounded-full">
-                Início <CaretRight size={16} weight="bold" /> Quero Apoiar
+                Início <CaretRight size={16} weight="bold" />{' '}
+                <span className="text-secondary">Quero Apoiar</span>
               </span>
 
               <h1 className="w-[95%] py-[20px] px-[20px] text-3xl text-left font-semibold text-secondary bg-white uppercase rounded-tl-[38px]">
@@ -59,9 +60,9 @@ export default function Home() {
 
               <button
                 onClick={scrollToPrices}
-                className="w-max py-[8px] px-[30px] bg-white text-[32px] text-primary font-light uppercase rounded-bl-[38px]"
+                className="w-max py-[8px] px-[30px] bg-white text-[32px] text-primary font-medium uppercase rounded-bl-[38px]"
               >
-                DOE <span className="font-medium text-secondary">AGORA</span>
+                DOE <span className="text-secondary">AGORA</span>
               </button>
             </div>
 
@@ -164,9 +165,47 @@ export default function Home() {
             </p>
           </div>
 
-          <div id="precos" className="space-y-4 text-center">
-            <h2 className="text-2xl font-semibold">
-              Quantos você deseja ajudar?
+          <div className="w-[90%] space-y-1">
+            <div className="w-full h-5 overflow-hidden bg-[#D8D8D8] rounded-full">
+              <div className="w-[3.3%] h-full flex items-center bg-secondary">
+                <span className="text-xs font-semibold ml-4">3.3%</span>
+              </div>
+            </div>
+
+            <div className="flex justify-between mx-2 font-semibold text-lg text-primary">
+              <span>ARRECADADO</span>
+
+              <span>META</span>
+            </div>
+
+            <div className="flex justify-between mx-2 font-semibold text-lg">
+              <span className=" text-secondary">R$ R$ 1.237.550,50</span>
+
+              <span className="text-[#A5A5A5]">R$ R$ 10.000.000,00</span>
+            </div>
+          </div>
+
+          <div
+            style={{ boxShadow: '0px 0px 10px 2px #00000050' }}
+            className="w-[90%] p-5 space-y-3 text-center text-white font-semibold bg-primary rounded-2xl"
+          >
+            <p className="text-2xl uppercase">
+              nenhuma vida
+              <br /> deveria ter preço!
+            </p>
+
+            <button
+              onClick={scrollToPrices}
+              className="w-full py-4 px-6 bg-secondary text-white text-lg font-semibold rounded-2xl hover:scale-105 transition-transform duration-150"
+            >
+              DOAR AGORA!
+            </button>
+          </div>
+
+          <div id="precos" className="space-y-4 text-center text-primary">
+            <h2 className="text-xl font-semibold uppercase">
+              Quantos você{' '}
+              <span className="text-secondary">deseja ajudar?</span>
             </h2>
 
             <p className="text-lg text-[#7A7A7A]">
@@ -175,81 +214,65 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-5">
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 20
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 40
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 50
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 100
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 200
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 300
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 400
               </a>
 
               <a
-                target="_blank"
                 href="/finalizar-doacao"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
-                className="w-[90%] mx-auto py-2 bg-primary hover:bg-[#438fde] text-white text-center font-semibold rounded-md transition-colors duration-200"
-                rel="noreferrer"
+                className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
               >
                 R$ 1000
               </a>

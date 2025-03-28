@@ -1,3 +1,5 @@
+'use-client'
+
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 import { FormEvent, useState } from 'react'
@@ -33,7 +35,7 @@ const popoins = Poppins({
 })
 
 export default function Home() {
-  const [step, setStep] = useState(1)
+  const [step, setStep] = useState(0)
   const [errorMensage, setErrorMensage] = useState('')
   const [userForm, setUserForm] = useState({
     nome: '',
@@ -128,7 +130,7 @@ export default function Home() {
                           viewBox="0 0 28 28"
                         >
                           <path
-                            fill="#316BA8"
+                            fill="#06A651"
                             d="M14 2.625C7.7 2.625 2.625 7.701 2.625 14S7.701 25.375 14 25.375 25.375 20.299 25.375 14c0-1.224-.164-2.444-.602-3.582l-1.421 1.395c.174.7.273 1.4.273 2.187A9.596 9.596 0 0 1 14 23.625 9.596 9.596 0 0 1 4.375 14 9.596 9.596 0 0 1 14 4.375c2.625 0 4.983 1.046 6.645 2.707l1.23-1.23C19.862 3.838 17.063 2.625 14 2.625m9.871 3.746L14 16.242l-3.746-3.746-1.258 1.258 4.375 4.375.629.601.629-.601 10.5-10.5z"
                           ></path>
                         </svg>
@@ -150,7 +152,7 @@ export default function Home() {
           {step === 1 && (
             <div
               onClick={prevStep}
-              className="flex items-center gap-1 text-primary text-sm font-semibold"
+              className="w-max flex items-center gap-1 text-primary text-sm font-semibold"
             >
               <ArrowLeft size={18} weight="bold" />
               <span>VOLTAR</span>
@@ -289,7 +291,7 @@ export default function Home() {
 
               <div className="p-5 mt-4 text-left space-y-3 border border-[#cccaca] rounded-md">
                 <div className="flex items-center gap-3">
-                  <div className="w-5 h-5 border border-primary p-[3px] rounded-[50%]">
+                  <div className="w-5 h-5 border border-secondary p-[3px] rounded-[50%]">
                     <div className="w-full h-full bg-primary rounded-[50%]" />
                   </div>
 
@@ -306,7 +308,7 @@ export default function Home() {
 
                 <button
                   type="submit"
-                  className="w-full bg-primary text-white py-3 rounded-md"
+                  className="w-full bg-secondary text-white text-lg py-3 rounded-md"
                 >
                   DOAR AGORA!
                 </button>
