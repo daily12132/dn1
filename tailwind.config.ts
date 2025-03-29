@@ -9,10 +9,9 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: '360px',
+        xs: '300px',
         smx: '375px',
-        smxx: '400px',
-        smxxx: '430px',
+        smxx: '430px',
       },
       colors: {
         background: 'var(--background)',

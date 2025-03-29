@@ -1,5 +1,3 @@
-'use-client'
-
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 import { FormEvent, useState } from 'react'
@@ -11,7 +9,7 @@ import {
   formatCpf,
   formatDataNascimento,
 } from '@/hooks/formatFields'
-import { Header2 } from '@/components/header'
+import { Header } from '@/components/header'
 import Footer from '@/components/footer'
 import Pix from '../../public/pix.svg'
 import Image from 'next/image'
@@ -95,7 +93,7 @@ export default function Home() {
         <title>Ajude com amor</title>
         <meta name="description" content="description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/logo1.svg" />
         <script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck
@@ -107,7 +105,7 @@ export default function Home() {
       <main
         className={`w-full min-h-screen flex flex-col justify-between items-center text-center ${popoins.className}`}
       >
-        <Header2 />
+        <Header />
 
         <div className="w-[90%] py-8 space-y-4">
           <div className="w-full flex flex-col items-center">

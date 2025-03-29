@@ -19,7 +19,9 @@ export const Header = () => {
 
   return (
     <header className="w-full flex items-center justify-between px-5 py-4 bg-white border-b shadow-sm">
-      <Image alt="logo" src={Logo} quality={100} width={180} />
+      <a href="/">
+        <Image alt="logo" src={Logo} quality={100} width={180} />
+      </a>
 
       <div className="p-1 bg-primary text-white rounded-md">
         <List
@@ -79,6 +81,10 @@ export const Header = () => {
               </p>
             </div>
           </div>
+
+          <a href="/" className="text-primary underline font-semibold">
+            Início
+          </a>
 
           <a href="#" className="text-primary underline font-semibold">
             Quem Somos

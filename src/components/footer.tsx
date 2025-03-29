@@ -42,10 +42,6 @@ const Footer = () => {
           <a href="#" className="text-secondary font-medium">
             Política de Privacidade
           </a>
-
-          <a href="#" className="text-secondary font-medium">
-            Política de Privacidade
-          </a>
           <a className="text-secondary font-medium">Política de Cookies</a>
         </div>
 

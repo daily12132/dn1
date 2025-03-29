@@ -25,7 +25,7 @@ export default function Home() {
         <title>Ajude com amor</title>
         <meta name="description" content="description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/logo1.svg" />
         <script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-4 pb-8">
           <div className="relative flex flex-col items-center">
             <div
-              className="w-full flex flex-col justify-start gap-12 xs:h-[470px] smx:h-[460px] smxx:h-[450px] smxxx:h-[430px] px-6 py-8"
+              className="w-full h-[430px] flex flex-col justify-start gap-12 px-6 py-8"
               style={{
                 backgroundImage: `url(${Banner.src})`,
                 backgroundSize: 'cover',
@@ -53,23 +53,23 @@ export default function Home() {
                 <span className="text-secondary">Quero Apoiar</span>
               </span>
 
-              <h1 className="w-[95%] py-[20px] px-[20px] text-3xl text-left font-semibold text-secondary bg-white uppercase rounded-tl-[38px]">
+              <h1 className="w-[95%] py-[20px] px-[20px] xs:text-lg smx:text-2xl smxx:text-3xl text-left font-semibold text-secondary bg-white uppercase rounded-tl-[38px]">
                 Crianças com Câncer{' '}
                 <span className="text-primary">precisam de você.</span>
               </h1>
-
-              <button
-                onClick={scrollToPrices}
-                className="w-max py-[8px] px-[30px] bg-white text-[32px] text-primary font-medium uppercase rounded-bl-[38px]"
-              >
-                DOE <span className="text-secondary">AGORA</span>
-              </button>
             </div>
 
             <div className="w-full h-4 bg-secondary" />
 
-            <div className="w-full bg-primary px-6 pb-6">
-              <div className="w-[95%] -mt-16 space-y-1 py-6 px-[30px] text-lg text-left bg-white rounded-tl-[42px] z-10">
+            <div className="w-full flex flex-col gap-8 items-start bg-primary px-6 pb-6">
+              <button
+                onClick={scrollToPrices}
+                className="w-max py-[8px] px-[30px] -mt-[170px] bg-white text-[32px] text-primary font-medium uppercase rounded-bl-[38px]"
+              >
+                DOE <span className="text-secondary">AGORA</span>
+              </button>
+
+              <div className="w-[95%] space-y-1 py-6 px-[30px] text-lg text-left bg-white rounded-tl-[42px] z-10">
                 <p>
                   Você sabia que, enquanto muitos ainda dormem, milhares de
                   crianças lutam contra o câncer sem o apoio necessário? Essa
