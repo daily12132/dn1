@@ -41,22 +41,21 @@ export default function QuemSomos() {
 
           <h1 className="text-primary text-2xl">QUEM SOMOS</h1>
           <p>
-            Somos o Instituto Ayrton Senna e lançamos a Campanha do Câncer, um
-            movimento dedicado a apoiar crianças e jovens em tratamento contra o
-            câncer, oferecendo oportunidades de aprendizagem e transformação.
-            Inspirados pelo legado do tricampeão mundial de Fórmula 1, Ayrton
-            Senna, trabalhamos para impulsionar o potencial dessas crianças e
-            ajudá-las a vencer mais essa batalha.
+            Nossa Campanha do Câncer, um movimento dedicado a apoiar crianças e
+            jovens em tratamento contra o câncer, oferecendo tratamento e todo
+            apoio necessario trabalhamos para impulsionar o potencial dessas
+            crianças e ajudá-las a vencer essa batalha.
           </p>
           <p>
             Desde 1994, acreditamos que a educação é uma ferramenta poderosa de
             superação e esperança. Mesmo em tempos de luta, as crianças podem
             descobrir sua força interior, vencer desafios e encontrar sua
             própria linha de chegada. A Campanha do Câncer tem como objetivo
-            levar a educação de qualidade, apoio emocional e motivação para
-            essas crianças, para que elas nunca deixem de acreditar em um futuro
-            vitorioso. Estamos aqui para ajudar a transformar suas vidas, com a
-            força da educação, coragem e esperança.
+            levar vida a essas crianças além de educação de qualidade, apoio
+            emocional e motivação para essas crianças, para que elas nunca
+            deixem de acreditar em um futuro vitorioso. Estamos aqui para ajudar
+            a transformar suas vidas, com a força da educação, coragem e
+            esperança.
           </p>
         </div>
 

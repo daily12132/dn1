@@ -46,8 +46,8 @@ export default function QuemSomos() {
           <p>
             A sua privacidade é importante para nós. É política do campanha do
             cancer respeitar a sua privacidade em relação a qualquer informação
-            sua que possamos coletar no site <a href="">campanha do cancer</a>,
-            e outros sites que possuímos e operamos.
+            sua que possamos coletar no site campanha do cancer, e outros sites
+            que possuímos e operamos.
           </p>
           <p>
             Solicitamos informações pessoais apenas quando realmente precisamos

@@ -41,22 +41,14 @@ export default function QuemSomos() {
 
           <h1 className="text-primary text-2xl">CONTATO</h1>
           <p>
-            Somos o Instituto Ayrton Senna e lançamos a Campanha do Câncer, um
-            movimento dedicado a apoiar crianças e jovens em tratamento contra o
-            câncer, oferecendo oportunidades de aprendizagem e transformação.
-            Inspirados pelo legado do tricampeão mundial de Fórmula 1, Ayrton
-            Senna, trabalhamos para impulsionar o potencial dessas crianças e
-            ajudá-las a vencer mais essa batalha.
+            O diálogo e o contato são formas de garantir a construção coletiva.
+            Todo tipo de sugestão e ideia é bem-vinda!
           </p>
           <p>
-            Desde 1994, acreditamos que a educação é uma ferramenta poderosa de
-            superação e esperança. Mesmo em tempos de luta, as crianças podem
-            descobrir sua força interior, vencer desafios e encontrar sua
-            própria linha de chegada. A Campanha do Câncer tem como objetivo
-            levar a educação de qualidade, apoio emocional e motivação para
-            essas crianças, para que elas nunca deixem de acreditar em um futuro
-            vitorioso. Estamos aqui para ajudar a transformar suas vidas, com a
-            força da educação, coragem e esperança.
+            Caso queira falar conosco sobre doações, brindes ou atualização de
+            dados, entre em contato por meio da nossa central de relacionamento
+            com o doador: 0800 789 2510 (de segunda a sexta-feira das 9h às
+            19h). Ou envie um e-mail para: campanhadocancer@greenpeace.org.
           </p>
         </div>
 

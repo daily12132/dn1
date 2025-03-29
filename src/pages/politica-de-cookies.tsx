@@ -43,22 +43,49 @@ export default function QuemSomos() {
           </h1>
 
           <p>
-            Somos o Instituto Ayrton Senna e lançamos a Campanha do Câncer, um
-            movimento dedicado a apoiar crianças e jovens em tratamento contra o
-            câncer, oferecendo oportunidades de aprendizagem e transformação.
-            Inspirados pelo legado do tricampeão mundial de Fórmula 1, Ayrton
-            Senna, trabalhamos para impulsionar o potencial dessas crianças e
-            ajudá-las a vencer mais essa batalha.
+            Quando você acessa nosso site, são armazenados pequenos arquivos em
+            seu software navegador, denominados popularmente como “cookies”, a
+            fim de identificar o seu dispositivo de acesso. Tais arquivos são
+            utilizados, entre outros casos, para fins de segurança,
+            personalização e customização da experiência, bem como a ativação de
+            funcionalidades.
           </p>
           <p>
-            Desde 1994, acreditamos que a educação é uma ferramenta poderosa de
-            superação e esperança. Mesmo em tempos de luta, as crianças podem
-            descobrir sua força interior, vencer desafios e encontrar sua
-            própria linha de chegada. A Campanha do Câncer tem como objetivo
-            levar a educação de qualidade, apoio emocional e motivação para
-            essas crianças, para que elas nunca deixem de acreditar em um futuro
-            vitorioso. Estamos aqui para ajudar a transformar suas vidas, com a
-            força da educação, coragem e esperança.
+            O IAS utiliza cookies próprios e de terceiros para diversas funções,
+            como possibilitar e facilitar a utilização do site institucional e
+            das plataformas, bem como de suas funcionalidades/ações, acompanhar
+            as suas preferências, persistir informações relacionadas a suas
+            atividades nos ambientes visitados, coletar informações para o envio
+            de comunicações e conteúdo mais personalizados, diminuir a
+            ocorrência de falhas durante o acesso, mitigar o risco de atividades
+            fraudulentas, garantir uma navegação mais personalizável, oferecer
+            recursos de segurança durante a navegação, e analisar de forma
+            estatística as preferências gerais do conjunto de
+            visitantes/usuários.
+          </p>
+          <p>
+            Caso não queira utilizar cookies, você poderá, a qualquer momento,
+            bloquear o uso dos cookies ativando uma configuração no seu
+            navegador de internet, sendo que a capacidade desse bloqueio
+            dependerá das configurações e limitações do seu navegador. Em caso
+            de bloqueio de cookies, o site institucional e as plataformas
+            administradas poderão não funcionar corretamente e as suas
+            funcionalidades também poderão estar parcial ou totalmente
+            indisponíveis.
+          </p>
+          <p>
+            Para administrar os seus cookies, recomendamos que clique nas
+            configurações do seu navegador, e confira as instruções relacionadas
+            ao uso, bloqueio e exclusão de cookies. Caso tenha interesse em
+            encontrar mais detalhes, abaixo, estão listadas as instruções dos
+            navegadores mais populares: (A) Google Chrome; (B) Mozilla Firefox;
+            (C) Safari; (D) Internet Explorer; (E) Microsoft Edge; e (F) Opera.
+          </p>
+          <p>
+            Por fim, ressalta-se que os cookies, bem como demais dados pessoais
+            eventualmente coletados por nós, seguem as diretrizes dispostas em
+            nossa Política de Privacidade, que dispõe acerca de todas nossas
+            atividades de tratamento de seus dados pessoais.
           </p>
         </div>
 
