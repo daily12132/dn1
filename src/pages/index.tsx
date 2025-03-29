@@ -214,65 +214,81 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-5">
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=78b606b9-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 20
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=996d6f79-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 40
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=a376d0b6-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 50
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=ac5c6e50-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 100
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=b7de7a62-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 200
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=c293c9d8-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 300
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=cbfcea09-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 400
               </a>
 
               <a
-                href="/finalizar-doacao"
+                target="_blank"
+                href="https://pagamento.institutodacaridade.online/checkout?product=d45d9485-09c5-11f0-8fa3-46da4690ad53"
                 style={{ boxShadow: '0px 0px 10px 1px #00000030' }}
                 className="w-[90%] mx-auto py-2 bg-secondary hover:bg-transparent text-white hover:text-secondary text-center font-semibold border border-secondary rounded-2xl transition-colors duration-200"
+                rel="noreferrer"
               >
                 R$ 1000
               </a>
