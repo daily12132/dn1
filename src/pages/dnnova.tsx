@@ -167,8 +167,8 @@ export default function Home() {
 
           <div className="w-[90%] space-y-1">
             <div className="w-full h-5 overflow-hidden bg-[#D8D8D8] rounded-full">
-              <div className="w-[3.3%] h-full flex items-center bg-secondary">
-                <span className="text-xs font-semibold ml-4">3.3%</span>
+              <div className="w-[12.4%] h-full flex items-center bg-secondary">
+                <span className="text-xs font-semibold ml-2">12.4%</span>
               </div>
             </div>
 
@@ -179,9 +179,9 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between mx-2 font-semibold text-lg">
-              <span className=" text-secondary">R$ R$ 1.237.550,50</span>
+              <span className=" text-secondary">R$ 1.237.550,50</span>
 
-              <span className="text-[#A5A5A5]">R$ R$ 10.000.000,00</span>
+              <span className="text-[#A5A5A5]">R$ 10.000.000,00</span>
             </div>
           </div>
 

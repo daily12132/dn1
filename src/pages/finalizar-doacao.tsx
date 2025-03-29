@@ -70,6 +70,7 @@ export default function Home() {
         // Verificar se a resposta foi bem-sucedida
         if (response.status === 201) {
           console.log('Dados salvos com sucesso:', response.data)
+          window.scrollTo({ top: 0, behavior: 'instant' })
           setStep(1) // Avançar para o próximo passo
         } else {
           throw new Error('Erro ao salvar os dados.')
@@ -108,7 +109,7 @@ export default function Home() {
       >
         <Header2 />
 
-        <div className="w-[90%] py-6 space-y-4">
+        <div className="w-[90%] py-8 space-y-4">
           <div className="w-full flex flex-col items-center">
             <div className="w-full flex items-center justify-between">
               {steps.map((s, index) => {
