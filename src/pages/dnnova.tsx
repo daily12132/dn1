@@ -42,7 +42,7 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-4 pb-8">
           <div className="relative flex flex-col items-center">
             <div
-              className="w-full flex flex-col justify-start gap-14 h-[460px] px-6 py-8"
+              className="w-full flex flex-col justify-start gap-12 xs:h-[470px] smx:h-[460px] smxx:h-[450px] smxxx:h-[430px] px-6 py-8"
               style={{
                 backgroundImage: `url(${Banner.src})`,
                 backgroundSize: 'cover',
@@ -68,18 +68,18 @@ export default function Home() {
 
             <div className="w-full h-4 bg-secondary" />
 
-            <div className="w-full h-[150px] bg-primary" />
+            <div className="w-full bg-primary px-6 pb-6">
+              <div className="w-[95%] -mt-16 space-y-1 py-6 px-[30px] text-lg text-left bg-white rounded-tl-[42px] z-10">
+                <p>
+                  Você sabia que, enquanto muitos ainda dormem, milhares de
+                  crianças lutam contra o câncer sem o apoio necessário? Essa
+                  realidade chocante precisa da sua ação agora!
+                </p>
 
-            <div className="absolute bottom-4 w-[90%] space-y-1 py-6 px-[30px] text-lg text-left bg-white rounded-tl-[42px]">
-              <p>
-                Você sabia que, enquanto muitos ainda dormem, milhares de
-                crianças lutam contra o câncer sem o apoio necessário? Essa
-                realidade chocante precisa da sua ação agora!
-              </p>
-
-              <p className="text-primary font-medium">
-                Não deixe a esperança morrer.
-              </p>
+                <p className="text-secondary font-medium">
+                  Não deixe a esperança morrer.
+                </p>
+              </div>
             </div>
           </div>
 
