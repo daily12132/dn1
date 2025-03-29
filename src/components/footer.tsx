@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <>
-      <footer className="relative w-full px-4 py-8 space-y-4 text-left bg-white border-t shadow-sm">
+      <footer className="relative w-full px-4 pb-6 pt-4 space-y-4 text-left bg-white border-t shadow-sm">
         <Image
           alt="logo"
           src={Logo}
@@ -31,18 +31,32 @@ const Footer = () => {
         <div className="flex flex-col">
           <h1 className="text-2xl text-primary font-medium mb-1">LEGAL</h1>
 
-          <a href="#" className="text-secondary font-medium">
+          <a
+            href="/quem-somos"
+            className="text-secondary font-medium hover:underline"
+          >
             Quem Somos
           </a>
 
-          <a href="#" className="text-secondary font-medium">
+          <a
+            href="/contato"
+            className="text-secondary font-medium hover:underline"
+          >
             Contato
           </a>
 
-          <a href="#" className="text-secondary font-medium">
+          <a
+            href="/politica-de-privacidade"
+            className="text-secondary font-medium hover:underline"
+          >
             Política de Privacidade
           </a>
-          <a className="text-secondary font-medium">Política de Cookies</a>
+          <a
+            href="/politica-de-cookies"
+            className="text-secondary font-medium hover:underline"
+          >
+            Política de Cookies
+          </a>
         </div>
 
         <h1>Faça a diferença, compartilhe com seus amigos!</h1>

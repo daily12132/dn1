@@ -13,6 +13,7 @@ import { Header } from '@/components/header'
 import Footer from '@/components/footer'
 import Pix from '../../public/pix.svg'
 import Image from 'next/image'
+import { ClipLoader } from 'react-spinners'
 
 const schema = z.object({
   nome: z
@@ -35,6 +36,7 @@ const popoins = Poppins({
 export default function Home() {
   const [step, setStep] = useState(0)
   const [errorMensage, setErrorMensage] = useState('')
+  const [loading, setLoading] = useState(false)
   const [userForm, setUserForm] = useState({
     nome: '',
     cpf: '',
@@ -62,6 +64,7 @@ export default function Home() {
 
     if (validationResult.success) {
       try {
+        setLoading(true)
         // Enviar os dados para a API usando Axios
         const response = await axios.post('/api/form', validationResult.data)
 
@@ -70,8 +73,10 @@ export default function Home() {
           console.log('Dados salvos com sucesso:', response.data)
           window.scrollTo({ top: 0, behavior: 'instant' })
           setStep(1) // Avançar para o próximo passo
+          setLoading(false)
         } else {
           throw new Error('Erro ao salvar os dados.')
+          setLoading(false)
         }
       } catch (error) {
         // Se houve erro, exibir a mensagem
@@ -105,6 +110,12 @@ export default function Home() {
       <main
         className={`w-full min-h-screen flex flex-col justify-between items-center text-center ${popoins.className}`}
       >
+        {loading && (
+          <div className="fixed w-full h-full flex items-center justify-center bg-white z-30">
+            <ClipLoader color="#074C2C" size={52} />
+          </div>
+        )}
+
         <Header />
 
         <div className="w-[90%] py-8 space-y-4">
@@ -170,11 +181,9 @@ export default function Home() {
             <div className="text-left">
               <h1 className="mb-4 text-xl font-medium">Doar como:</h1>
 
-              <form onSubmit={validarForm} className="w-full max-w-md mx-auto">
+              <div className="w-full">
                 <div className="mb-4 space-y-1">
-                  <label className="block text-sm font-medium">
-                    Nome Completo
-                  </label>
+                  <label className="text-sm font-medium">Nome Completo</label>
                   <input
                     required
                     type="text"
@@ -189,9 +198,8 @@ export default function Home() {
                     }
                   />
                 </div>
-
                 <div className="mb-4 space-y-1">
-                  <label className="block text-sm font-medium">E-mail</label>
+                  <label className="text-sm font-medium">E-mail</label>
                   <input
                     required
                     type="email"
@@ -206,9 +214,8 @@ export default function Home() {
                     }
                   />
                 </div>
-
                 <div className="mb-4 space-y-1">
-                  <label className="block text-sm font-medium">CPF</label>
+                  <label className="text-sm font-medium">CPF</label>
                   <input
                     required
                     className="w-full py-[10px] px-4 rounded-md border border-[#ced4da] outline-primary"
@@ -223,9 +230,8 @@ export default function Home() {
                     }
                   />
                 </div>
-
                 <div className="mb-4 space-y-1">
-                  <label className="block text-sm font-medium">Telefone</label>
+                  <label className="text-sm font-medium">Telefone</label>
                   <input
                     required
                     className="w-full py-[10px] px-4 rounded-md border border-[#ced4da] outline-primary"
@@ -240,9 +246,8 @@ export default function Home() {
                     }
                   />
                 </div>
-
                 <div className="mb-4 space-y-1">
-                  <label className="block text-sm font-medium">
+                  <label className="text-sm font-medium">
                     Data de Nascimento
                   </label>
                   <input
@@ -259,18 +264,14 @@ export default function Home() {
                     }
                   />
                 </div>
-
-                {errorMensage && (
-                  <div className="text-[red]">{errorMensage}</div>
-                )}
-
+                {errorMensage && <p className="text-[red]">{errorMensage}</p>}
                 <button
-                  type="submit"
+                  onClick={validarForm}
                   className="w-full bg-primary text-white py-3 rounded-md"
                 >
                   Ir para o pagamento
                 </button>
-              </form>
+              </div>
             </div>
           ) : step === 1 ? (
             <div>

@@ -86,15 +86,21 @@ export const Header = () => {
             Início
           </a>
 
-          <a href="#" className="text-primary underline font-semibold">
+          <a
+            href="/quem-somos"
+            className="text-primary underline font-semibold"
+          >
             Quem Somos
           </a>
 
-          <a href="#" className="text-primary underline font-semibold">
+          <a href="/contato" className="text-primary underline font-semibold">
             Contato
           </a>
 
-          <a href="#" className="text-primary underline font-semibold">
+          <a
+            href="/politica-de-privacidade"
+            className="text-primary underline font-semibold"
+          >
             Política de Privacidade
           </a>
 

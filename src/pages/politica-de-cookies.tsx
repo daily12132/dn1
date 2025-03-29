@@ -38,8 +38,10 @@ export default function QuemSomos() {
             <ArrowLeft size={18} weight="bold" />
             <span>VOLTAR</span>
           </a>
+          <h1 className="text-primary text-2xl uppercase">
+            Política de cookies
+          </h1>
 
-          <h1 className="text-primary text-2xl">QUEM SOMOS</h1>
           <p>
             Somos o Instituto Ayrton Senna e lançamos a Campanha do Câncer, um
             movimento dedicado a apoiar crianças e jovens em tratamento contra o
