@@ -39,7 +39,7 @@ export default function Home() {
       >
         <Header />
 
-        <div className="w-full flex flex-col items-center gap-4 pb-6">
+        <div className="w-full flex flex-col items-center gap-4 pb-8">
           <div className="relative flex flex-col items-center">
             <div
               className="w-full flex flex-col justify-start gap-14 h-[460px] px-6 py-8"
