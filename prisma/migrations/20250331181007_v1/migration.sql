@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE "Formulario" (
-    "id" TEXT NOT NULL,
+    "id" SERIAL NOT NULL,
     "nome" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "cpf" TEXT NOT NULL,

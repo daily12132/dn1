@@ -52,9 +52,9 @@ export default function Home() {
   ]
 
   const prevStep = () => {
+    setStep((prevStep) => prevStep - 1)
     window.scrollTo({ top: 0, behavior: 'instant' })
     setErrorMensage('')
-    setStep((prevStep) => prevStep - 1)
   }
 
   const validarForm = async (event: FormEvent) => {
@@ -65,30 +65,25 @@ export default function Home() {
     if (validationResult.success) {
       try {
         setLoading(true)
-        // Enviar os dados para a API usando Axios
+
         const response = await axios.post('/api/form', validationResult.data)
 
-        // Verificar se a resposta foi bem-sucedida
         if (response.status === 201) {
-          console.log('Dados salvos com sucesso:', response.data)
           window.scrollTo({ top: 0, behavior: 'instant' })
-          setStep(1) // Avançar para o próximo passo
-          setLoading(false)
+          setStep(1)
         } else {
           throw new Error('Erro ao salvar os dados.')
-          setLoading(false)
         }
       } catch (error) {
-        // Se houve erro, exibir a mensagem
-        setErrorMensage('Erro ao salvar os dados. Tente novamente.')
         console.error(error)
+        setErrorMensage('Erro ao salvar os dados. Tente novamente.')
+      } finally {
+        setLoading(false)
       }
     } else {
-      // Se a validação falhar, exibir as mensagens de erro
-      const errorMessages = validationResult.error.errors.map(
-        (err) => err.message,
+      setErrorMensage(
+        validationResult.error.errors.map((err) => err.message).join(' '),
       )
-      setErrorMensage(errorMessages.join(' '))
     }
   }
 

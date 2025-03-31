@@ -14,7 +14,7 @@ datasource db {
 }
 
 model Formulario {
-  id        String   @id @default(uuid())
+  id        Int      @id @default(autoincrement())
   nome      String
   email     String
   cpf       String
